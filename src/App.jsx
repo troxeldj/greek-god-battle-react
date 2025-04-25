@@ -38,7 +38,7 @@ function BattleArea({ selectedGods, onBattleComplete, battleWinner }) {
   const [roundWinner, setRoundWinner] = useState(null);
   const [battleOver, setBattleOver] = useState(false);
   const [isAnimatingWin, setIsAnimatingWin] = useState(false);
-  const winningScore = 3;
+  const winningScore = 5;
 
   const attributes = Object.keys(god1.attributes);
 
