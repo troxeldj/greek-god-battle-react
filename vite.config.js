@@ -8,4 +8,5 @@ export default defineConfig({
 		react(),
 		tailwindcss()
 	],
+	base: '/greek-god-battle-react/'
 });
