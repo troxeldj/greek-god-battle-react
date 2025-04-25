@@ -2,6 +2,7 @@
   "name": "my-greek-god-arena",
   "private": true,
   "version": "0.0.0",
+	"homepage": "https://troxeldj.github.io/greek-god-battle-react",
   "type": "module",
   "scripts": {
     "dev": "vite",
