@@ -1,0 +1,74 @@
+[
+  {
+    "id": "zeus",
+    "name": "Zeus",
+    "description": "King of the Gods, ruler of the sky, lightning, thunder, law, order, and justice.",
+    "attributes": {
+      "Strength": 10,
+      "Wisdom": 7,
+      "Speed": 6,
+      "MythicPower": 9
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"
+  },
+  {
+    "id": "hera",
+    "name": "Hera",
+    "description": "Queen of the Gods, goddess of marriage, women, childbirth, and family.",
+    "attributes": {
+      "Strength": 6,
+      "Wisdom": 8,
+      "Speed": 5,
+      "MythicPower": 7
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Divinit%C3%A0_sul_tipo_della_hera_borghese%2C_copia_romana_da_originale_della_scuola_di_fidia%2C_da_tor_bovacciana_%28ostia%29%2C_inv._2246.JPG/800px-Divinit%C3%A0_sul_tipo_della_hera_borghese%2C_copia_romana_da_originale_della_scuola_di_fidia%2C_da_tor_bovacciana_%28ostia%29%2C_inv._2246.JPG"
+  },
+  {
+    "id": "poseidon",
+    "name": "poseidon",
+    "description": "God of the seas, water, storms, hurricanes, earthquakes, and horses.",
+    "attributes": {
+      "Strength": 9,
+      "Wisdom": 6,
+      "Speed": 7,
+      "MythicPower": 8
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Poseidon_sculpture_Copenhagen_2005.jpg"
+  },
+  {
+    "id": "athena",
+    "name": "Athena",
+    "description": "Goddess of wisdom, handicraft, and warfare.",
+    "attributes": {
+      "Strength": 7,
+      "Wisdom": 10,
+      "Speed": 7,
+      "MythicPower": 8
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Mattei_Athena_Louvre_Ma530_n2.jpg/800px-Mattei_Athena_Louvre_Ma530_n2.jpg"
+  },
+  {
+    "id": "ares",
+    "name": "Ares",
+    "description": "God of war, violence, bloodshed, and manly virtues.",
+    "attributes": {
+      "Strength": 8,
+      "Wisdom": 4,
+      "Speed": 8,
+      "MythicPower": 7
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Ares_Canope_Villa_Adriana_b.jpg/800px-Ares_Canope_Villa_Adriana_b.jpg"
+  },
+  {
+    "id": "hermes",
+    "name": "Hermes",
+    "description": "Messenger of the gods; god of travel, commerce, communication, thieves, and games.",
+    "attributes": {
+      "Strength": 5,
+      "Wisdom": 7,
+      "Speed": 10,
+      "MythicPower": 6
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Hermes_Ingenui_Pio-Clementino_Inv544.jpg"
+  }
+]
