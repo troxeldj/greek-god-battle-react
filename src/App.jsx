@@ -31,7 +31,7 @@ function GodSelection({ onSelectGod, selectedGods }) {
   );
 }
 
-function BattleArea({ selectedGods, onBattleComplete }) {
+function BattleArea({ selectedGods, onBattleComplete, battleWinner }) {
   const [god1, god2] = selectedGods;
   const [score, setScore] = useState({ [god1.id]: 0, [god2.id]: 0 });
   const [currentAttribute, setCurrentAttribute] = useState(null);
@@ -185,13 +185,15 @@ export default function App() {
         <GodSelection onSelectGod={handleSelectGod} selectedGods={selectedGods} />
       )}
 
-      {selectedGods.length === 2 && battleWinner === null && (
-        <BattleArea selectedGods={selectedGods} onBattleComplete={handleBattleComplete} />
-      )}
+			{selectedGods.length === 2 && (
+				<BattleArea
+					selectedGods={selectedGods}
+					onBattleComplete={handleBattleComplete}
+					battleWinner={battleWinner}
+				/>
+			)}
 
-       {battleWinner && (
-            <BattleArea selectedGods={selectedGods} onBattleComplete={handleBattleComplete} />
-       )}
+
     </div>
   );
 }
